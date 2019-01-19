@@ -1,0 +1,589 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml"><head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta name="description" content="Trung tâm đào tạo Tester - Testmaster.vn là nơi đào tạo Tester, học Automation Test tại Hà nội tốt nhất, cung cấp cho các đối tác là các công ty, tập đoàn trong và ngoài nước như FPT Software, VNPT Software, Viettel" />
+    <title>Trung tâm đào tạo Tester, Học automation test ở Hà nội - Testmaster.vn</title>
+    <meta name="keywords" content="Đào tạo tester tại hà nội, cung cấp tester, dịch vụ kiểm thử phần mềm" />
+    <meta name="keywords" content="Cho thuê thiết bị máy tính, cho thuê macbook, cho thuê iphone, cho thuê ipad" />
+    <meta property="og:title" content="Trung tâm đào tạo Tester, Học automation test ở Hà nội - Testmaster.vn" />
+    <meta property="og:description" content="Trung tâm đào tạo Tester - Testmaster.vn là nơi đào tạo Tester, học Automation Test tại Hà nội tốt nhất, cung cấp cho các đối tác là các công ty, tập đoàn trong và ngoài nước như FPT Software, VNPT Software, Viettel" />
+    <meta property="og:image" content="http://testmaster.vn/content/images/banner/default.png" />
+    <link rel="icon" href="/favicon.png" type="image/x-icon" />
+    <meta name="author" content="Công ty TNHH công nghệ và dịch vụ phần mềm Testmaster" />
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link href="/Content/libs/bootstrap.css" rel="stylesheet" />
+<link href="/Content/libs/font-awesome.css" rel="stylesheet" />
+<link href="/Content/app.css" rel="stylesheet" />
+<link href="/Content/frontend.css" rel="stylesheet" />
+
+    <script id="facebook-jssdk" src="//connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v2.6"></script><script async="" src="//www.google-analytics.com/analytics.js"></script><script src="/Scripts/libs/jquery-1.10.2.js"></script>
+<script src="/Scripts/libs/bootstrap.js"></script>
+<script src="/Scripts/libs/respond.js"></script>
+<script src="/Scripts/libs/jquery.nicescroll.min.js"></script>
+<script src="/Scripts/app.js"></script>
+<script src="/Scripts/frontend.js"></script>
+
+
+    <script type="text/javascript">
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-75448641-1', 'auto');
+        ga('send', 'pageview');
+
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v2.6";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+<style type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset&gt;div{overflow:hidden}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_dialog_advanced{border-radius:8px;padding:10px}.fb_dialog_content{background:#fff;color:#373737}.fb_dialog_close_icon{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{left:5px;right:auto;top:5px}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent}.fb_dialog_close_icon:active{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title&gt;span{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{height:100%;left:0;margin:0;overflow:visible;position:absolute;top:-10000px;transform:none;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{background:none;height:auto;min-height:initial;min-width:initial;width:auto}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{clear:both;color:#fff;display:block;font-size:18px;padding-top:20px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .4);bottom:0;left:0;min-height:100%;position:absolute;right:0;top:0;width:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_mobile .fb_dialog_iframe{position:sticky;top:0}.fb_dialog_content .dialog_header{background:linear-gradient(from(#738aba), to(#2c4987));border-bottom:1px solid;border-color:#1d3c78;box-shadow:white 0 1px 1px -1px inset;color:#fff;font:bold 14px Helvetica, sans-serif;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:linear-gradient(from(#4267B2), to(#2a4887));background-clip:padding-box;border:1px solid #29487d;border-radius:3px;display:inline-block;line-height:18px;margin-top:3px;max-width:85px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{background:none;border:none;color:#fff;font:bold 12px Helvetica, sans-serif;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #4a4a4a;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f5f6f7;border:1px solid #4a4a4a;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);background-position:50% 50%;background-repeat:no-repeat;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}</style></head>
+<body style="" class="modal-open">
+    <header>
+        <div class="container">
+            <table width="100%" cellspacing="0" cellpadding="0">
+                <tbody><tr>
+                    <td>
+                        <a class="menu-item collapsed" data-toggle="collapse" data-target="#navbar" href="javascript:void(0)" style="color:black !important; opacity: 0.7;">
+                            <i class="fa fa-bars" aria-hidden="true"></i>
+                            <i class="fa fa-times"></i>
+                        </a>
+                        <a href="/">
+                            <img src="/Content/images/logo@1x.png" alt="Testmaster.vn" class="logo" />
+                        </a>
+                    </td>
+                    <td style="vertical-align:top;">
+                        <nav class="user-nav">
+                            <div style="float:right;" class="mobile-account-menu">
+                                <a class="nav-link dropdown-toggle" href="javascript:void(0)" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:black !important; opacity: 0.8;">
+                                    <i class="material-icons" style="vertical-align:middle;">group_add</i>
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="right:0; margin-top: -1px; border-radius: 0; border-left: 0; border-right: 0">
+                                    <li>
+                                        <a href="/dangnhap.html" id="login-btn" class="modal-trigger login-btn"><i class="material-icons" style="vertical-align:middle; margin-top:-3px;">portrait</i> Đăng nhập</a>
+                                    </li>
+                                    <li>
+                                        <a href="#modal1" id="register-btn" class="modal-trigger register-btn"><i class="material-icons" style="vertical-align:middle; margin-top:-3px;">group_add</i> Đăng ký học</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div id="#accountMenu" class="navbar-collapse collapse" aria-expanded="false">
+                                <ul class="nav navbar-nav navbar-right" aria-expanded="false">
+                                    <li>
+                                        <a href="/dangnhap.html" id="login-btn" class="modal-trigger login-btn"><i class="material-icons" style="vertical-align:middle; margin-top:-3px;">portrait</i> Đăng nhập</a>
+                                    </li>
+                                    <li>
+                                        <a href="#modal1" id="register-btn" class="modal-trigger register-btn"><i class="material-icons" style="vertical-align:middle; margin-top:-3px;">group_add</i> Đăng ký học</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="clear-both"></div>
+                        </nav>
+                    </td>
+                </tr>
+            </tbody></table>
+
+            <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/cac-khoa-hoc.html">
+                            Các khóa học
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/khach-hang.html">
+                            Khách hàng
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/dich-vu.html">
+                            Dịch vụ kiểm thử
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/thiet-bi-cho-thue.html">
+                            Thiết bị cho thuê
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/Blog.html">
+                            [Automation Test Blog+]
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        
+
+<div class="top-panel">
+    <div class="container">
+        <div class="slide-show">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                            <div class="item">
+                                <a href="courses/kiem-thu-tu-dong-voi-selenium.html">
+                                    <img src="content/images/banner/automation.png" alt="Tuyển sinh khóa học Automation T5/2018" style="width:100%;" />
+                                    <div class="carousel-caption">Tuyển sinh khóa học Automation T5/2018</div>
+                                </a>
+                            </div>
+                            <div class="item active">
+                                <a href="courses/hoc-tester-tu-co-ban-den-nang-cao.html">
+                                    <img src="content/images/banner/manual-carousel.png" alt="Tuyển sinh khóa học Tester từ cơ bản đến nâng cao" style="width:100%;" />
+                                    <div class="carousel-caption">Tuyển sinh khóa học Tester từ cơ bản đến nâng cao</div>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="news/hop-tac-dao-tao-voi-trung-tam-thanh-toan-quoc-gia.html">
+                                    <img src="content/images/banner/napas.png" alt="Đào tạo về bảo mật và kiểm thử bảo mật cho Trung Tâm Thanh Toán Quốc Gia" style="width:100%;" />
+                                    <div class="carousel-caption">Đào tạo về bảo mật và kiểm thử bảo mật cho Trung Tâm Thanh Toán Quốc Gia</div>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="news/hop-tac-dao-tao-automation-test-euroland-ir.html">
+                                    <img src="content/images/news/eurolandir.png" alt="Đào tạo về Automation Test tại Euroland IR Việt Nam" style="width:100%;" />
+                                    <div class="carousel-caption">Đào tạo về Automation Test tại Euroland IR Việt Nam</div>
+                                </a>
+                            </div>
+                </div>
+
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+            </div>
+        </div>
+        <div class="news-block" tabindex="1" style="overflow: hidden; outline: none;">
+            <ul>
+                        <li>
+                            <table cellpadding="0" cellspacing="0">
+                                <tbody><tr>
+                                    <td class="clTopNew-icon">
+                                        <img class="news-icon" src="Content/images/news/eurolandir_logo.png" />
+                                    </td>
+                                    <td>
+                                        <div class="title">
+                                            <a href="news/hop-tac-dao-tao-automation-test-euroland-ir.html">
+Triển khai Automation Test tại EurolandIR Việt Nam                                            </a>
+                                        </div>
+                                        <div class="poster">22/10/2018</div>
+                                    </td>
+                                </tr>
+                            </tbody></table>
+                        </li>
+                        <li>
+                            <table cellpadding="0" cellspacing="0">
+                                <tbody><tr>
+                                    <td class="clTopNew-icon">
+                                        <img class="news-icon" src="Content/images/news/napas.png" />
+                                    </td>
+                                    <td>
+                                        <div class="title">
+                                            <a href="news/hop-tac-dao-tao-voi-trung-tam-thanh-toan-quoc-gia.html">
+Training Security Testing tại Trung tâm thanh toán Quốc Gia NAPAS                                            </a>
+                                        </div>
+                                        <div class="poster">15/04/2018</div>
+                                    </td>
+                                </tr>
+                            </tbody></table>
+                        </li>
+                        <li>
+                            <table cellpadding="0" cellspacing="0">
+                                <tbody><tr>
+                                    <td class="clTopNew-icon">
+                                        <img class="news-icon" src="Content/images/news/q_and_a.png" />
+                                    </td>
+                                    <td>
+                                        <div class="title">
+                                            <a href="news/nhung-dieu-can-biet-khi-theo-hoc-tai-testmaster.html">
+Những điều cần biết khi theo học tại Testmaster                                            </a>
+                                        </div>
+                                        <div class="poster">10/01/2018</div>
+                                    </td>
+                                </tr>
+                            </tbody></table>
+                        </li>
+                        <li>
+                            <table cellpadding="0" cellspacing="0">
+                                <tbody><tr>
+                                    <td class="clTopNew-icon">
+                                        <img class="news-icon" src="Content/images/news/top-7.png" />
+                                    </td>
+                                    <td>
+                                        <div class="title">
+                                            <a href="news/7-cong-viec-co-luong-cao-nhat-nganh-it.html">
+07 công việc lương cao nhất ngành IT                                            </a>
+                                        </div>
+                                        <div class="poster">17/04/2018</div>
+                                    </td>
+                                </tr>
+                            </tbody></table>
+                        </li>
+                        <li>
+                            <table cellpadding="0" cellspacing="0">
+                                <tbody><tr>
+                                    <td class="clTopNew-icon">
+                                        <img class="news-icon" src="Content/images/news/java-logo.png" />
+                                    </td>
+                                    <td>
+                                        <div class="title">
+                                            <a href="news/java-for-tester-bai-01.html">
+Java for Tester (Bài 01) - Tìm hiểu về Java, cài đặt môi trường phát triển                                            </a>
+                                        </div>
+                                        <div class="poster">12/01/2018</div>
+                                    </td>
+                                </tr>
+                            </tbody></table>
+                        </li>
+                        <li>
+                            <table cellpadding="0" cellspacing="0">
+                                <tbody><tr>
+                                    <td class="clTopNew-icon">
+                                        <img class="news-icon" src="Content/images/news/agile-scrum.png" />
+                                    </td>
+                                    <td>
+                                        <div class="title">
+                                            <a href="news/agile-scrum-mo-hinh-phat-trien-phan-mem-linh-hoat.html">
+Agile Scrum, mô hình phát triển phần mềm linh hoạt                                            </a>
+                                        </div>
+                                        <div class="poster">10/01/2018</div>
+                                    </td>
+                                </tr>
+                            </tbody></table>
+                        </li>
+                        <li>
+                            <table cellpadding="0" cellspacing="0">
+                                <tbody><tr>
+                                    <td class="clTopNew-icon">
+                                        <img class="news-icon" src="Content/images/news/agile.png" />
+                                    </td>
+                                    <td>
+                                        <div class="title">
+                                            <a href="news/Tìm hiểu các hoạt động kiểm thử trong Agile Scrum.html">
+Tìm hiểu các hoạt động kiểm thử trong Agile Scrum                                            </a>
+                                        </div>
+                                        <div class="poster">10/01/2018</div>
+                                    </td>
+                                </tr>
+                            </tbody></table>
+                        </li>
+
+            </ul>
+        </div>
+        <div class="clear-both" style="border-bottom:solid 1px #CCC; padding-top:15px;"></div>
+    </div>
+</div>
+<div class="representative" style="padding-bottom:15px;">
+    <div class="container">
+        <h2 class="title">ĐỐI TÁC SỬ DỤNG DỊCH VỤ</h2>
+        <div style="text-align:center;">
+            <i>"Testmaster xin gửi lời cảm ơn chân thành tới các công ty đối tác đã tin tưởng và sử dụng dịch vụ kiểm thử, thuê và sử dụng nhân sự Test, Thiết bị Test"</i>
+        </div>
+        <ul class="customer">
+            <li>
+                <div class="company-logo">
+                    <img src="/Content/images/Customers/napas.jpg" />
+                </div>
+                <div class="company-name">
+                    <a href="http://napas.com.vn/">CTY CP THANH TOÁN QUỐC GIA NAPAS</a>
+                </div>
+            </li>
+            <li>
+                <div class="company-logo">
+                    <img src="/Content/images/Customers/viettel.jpg" />
+                </div>
+                <div class="company-name">
+                    <a href="http://viettel.com.vn/">VIETTEL SOFTWARE</a>
+                </div>
+            </li>
+            <li>
+                <div class="company-logo">
+                    <img src="/Content/images/Customers/pv_combank.jpg" />
+                </div>
+                <div class="company-name">
+                    NGÂN HÀNG ĐẠI CHÚNG VIỆT NAM
+                </div>
+            </li>
+            <li>
+                <div class="company-logo">
+                    <img src="/Content/images/Customers/innovatube.jpg" />
+                </div>
+                <div class="company-name">
+                    <a href="http://innovatube.com/">CTY TNHH INNOVATUBE SOLUTION VIỆT NAM</a>
+                </div>
+            </li>
+            <li>
+                <div class="company-logo">
+                    <img src="/Content/images/Customers/VDC_1.jpg" />
+                </div>
+                <div class="company-name">
+                    <a href="http://vdcgroup.vn/">VDC GROUP</a>
+                </div>
+            </li>
+        </ul>
+        <div class="clear-both" style="border-bottom:solid 1px #CCC; padding:15px 0;"></div>
+
+        <h2 class="title" style="margin-top:20px;">NHẬN XÉT TỪ KHÁCH HÀNG</h2>
+
+        <div class="customer-comment" style="margin-top:20px; padding:0 20px;">
+            <div>
+                <div class="col-sm-2">
+                    <img src="/Content/images/Comment/de_vdc.png" style="width:110px;" />
+                </div>
+                <div class="col-sm-10">
+                    <div style="font-size:120%; margin-bottom:3px;"><b><i>Anh</i> TRẦN VĂN ĐỆ</b></div>
+                    <div style="opacity:0.7; font-size:80%; margin-bottom:5px;">VDC SOFTWARE - de.tv@vdcsoftware.vn</div>
+                    <div>
+                        <i>
+                            Chúng tôi đã hợp tác với Testmaster trong việc đào tạo trang bị kỹ năng Automation Test cho đội ngũ kiểm thử của VDC Software. Chúng tôi rất hài lòng về chất lượng đào tạo mà Testmaster cung cấp. Hiện tại, với sự tư vấn và trợ giúp của Testmaster, chúng tôi đã xây dựng được đội ngũ Automation Test hiệu quả đáp ứng yêu cầu công việc tại các dự án theo Agile Process
+                        </i>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="text-align:right; margin-top:20px;">
+                <div class="col-sm-10">
+                    <div style="font-size:120%; margin-bottom:3px;"><b><i>Chị</i> TRẦN THỊ MỸ LỆ</b></div>
+                    <div style="opacity:0.7; font-size:80%; margin-bottom:5px;">FPT SOFTWARE - le.ttm@fptsoftware.com</div>
+                    <div>
+                        <i>
+                            Giai đoạn đầu khi áp dụng Agile Scrum vào các dự án tại FPT Software, đội Tester chủ yếu làm Manual Testing do đó tốc độ dự án rất chậm. Tuy nhiên với sự hỗ trợ của Testmaster trong việc đào tạo và áp dụng Automation Test hiện nay vấn đề này đã được giải quyết
+                        </i>
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <img src="/Content/images/Comment/le_fptsoftware.png" style="width:110px;" />
+                </div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="margin-top:20px;">
+                <div class="col-sm-2">
+                    <img src="/Content/images/Comment/khanh_euroland.png" style="width:110px;" />
+                </div>
+                <div class="col-sm-10">
+                    <div style="font-size:120%; margin-bottom:3px;"><b><i>Anh</i> TRẦN XUÂN KHANH </b></div>
+                    <div style="opacity:0.7; font-size:80%; margin-bottom:5px;">EurolandIR Việt Nam - khanh.tx@euroland.com</div>
+                    <div>
+                        <i>
+                            Các process phát triển phần mềm hiện đại như Scrum hay Devops hiện đã và đang chứng tỏ được sự hiệu quả và đang ngày càng được nhiều công ty phần mềm áp dụng. Automation Test có vai trò quan trọng và không thể thiếu trong các process này. Việc áp dụng sao cho đúng sẽ mang lại hiệu quả rất cao. Testmaster đã làm rất tốt điều này và đã và đang giúp các doanh nghiệp khác cùng áp dụng.
+                        </i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="clear-both" style="border-bottom:solid 1px #CCC; padding-top:15px;"></div>
+
+    </div>
+</div>
+<div class="course-list">
+    <div class="container">
+        <h2 class="title">CÁC KHÓA HỌC TRONG NĂM 2018 </h2>
+        <ul class="courses">
+            <li>
+                <div class="card">
+                    <div class="card-body">
+                        <a href="/courses/hoc-tester-tu-co-ban-den-nang-cao.html">
+                            <img src="/content/images/banner/manual.png" />
+                            <div class="content">
+
+                                <h2 class="course-name">Tester từ cơ bản đến nâng cao (TesterAZ)</h2>
+                                <div class="description">
+                                    Nhằm đáp ứng nhu cầu tuyển dụng nhân lực tại FPT Software và các đối tác của Testmaster, Khóa học thiết kế cho những người bắt đầu đến với kiểm thử, trang bị các kiến thức đầy đủ để trở thành một chuyên gia Kiểm thử chất lượng cao
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="card">
+                    <div class="card-body">
+                        <a href="/courses/kiem-thu-tu-dong-voi-selenium.html">
+                            <img src="/content/images/banner/automation.jpg" />
+                            <div class="content">
+                                <h2 class="course-name">Kiểm thử tự động (Automation Testing)</h2>
+                                <div class="description">
+                                    Là khóa học về <b>Selenium, TestNG, Cucumber</b> toàn diện nhất hiện nay hướng đến trang bị cho những người Tester đã có kiến thức kinh nghiệm về kiểm thử những kỹ năng về kiểm thử tự động, qua đó tăng hiệu suất công việc
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="card">
+                    <div class="card-body">
+                        <a href="/courses/kiem-thu-tu-dong-voi-serenity.html">
+                            <img src="/content/images/banner/project.png" />
+                            <div class="content">
+                                <h2 class="course-name">Advanced Automation With Serenity</h2>
+                                <div class="description">
+                                    Được xem là thế hệ Automation Test kế tiếp. Serenity là một trong những BDD Framework được ưa chuộng bậc nhất hiện nay. Với khả năng tạo ra các kịch bản dễ bảo trì, hệ thống báo cáo tuyệt vời  mà các công cụ khác không có.
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="card">
+                    <div class="card-body">
+                        <img src="/content/images/banner/ba.png" />
+                        <div class="content">
+                            <h2 class="course-name">Phân tích nghiệp vụ phần mềm</h2>
+                            <div class="description">
+                                Khóa học được thiết kế dành cho những người muốn trở thành các chuyên gia phân tích nghiệp vụ, xuất phát điểm là các Tester, chuyên gia quản lý chất lượng cũng như những người đã và đang làm việc trong lĩnh vực Phần mềm
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <div class="clear-both"></div>
+        </ul>
+    </div>
+</div>
+<div class="container text-center">
+    <b><i>"Tất cả các khóa học tại Testmaster đều được cam kết đảm bảo chất lượng. Hoàn 100% học phí nếu học viên cảm thấy không hài lòng"</i></b>
+</div>
+
+
+
+        <div class="container">
+            <div class="how-learning">
+                <h2 class="title">HỌC Ở TESTMASTER NHƯ NÀO?</h2>
+                <ul>
+                    <li>
+                        <div>
+                            <img src="/content/images/onclass.png" class="icon" />
+                        </div>
+                        <div class="name">
+                            Tham gia học trên lớp
+                        </div>
+                        <div class="description">
+                            Mỗi khóa học, học viên sẽ học tập trung trên lớp dưới sự hướng dẫn của các chuyên gia trong lĩnh vực kiểm thử đến từ FPT Software
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="/content/images/onhome.png" class="icon" />
+                        </div>
+                        <div class="name">Tự học lại trên giáo trình điện tử</div>
+                        <div class="description">
+                            Mỗi bài học sẽ có giáo trình điện tử để học viên có thể học lại bất cứ khi nào, bất cứ nơi đâu
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="/content/images/onjob.png" class="icon" />
+                        </div>
+                        <div class="name">Tham gia làm dự án thực tế</div>
+                        <div class="description">
+                            Sau khi trang bị đầy đủ các kiến thức, học viên được tham gia vào các dự án thực tế để tích lũy kinh nghiệm làm việc
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="/content/images/certificate.png" class="icon" />
+                        </div>
+                        <div class="name">Cấp chứng chỉ &amp; đi làm</div>
+                        <div class="description">
+                            Kết thúc khóa học, học viên sẽ được đánh giá cấp chứng chỉ và hỗ trợ việc làm. Hỗ trợ thực tập, làm đồ án cho sinh viên
+                        </div>
+                    </li>
+                    <div class="clear-both"></div>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="container">
+                <div>
+                    <div class="copyright col-sm-3">
+                        <div class="title">Testmaster.vn</div>
+                        <div>
+                            <img src="/Content/images/facebook-512.png" style="width:36px;" />
+                            <img src="/Content/images/youtube-256.png" style="width:36px" />
+                        </div>
+                    </div>
+                    <div class="contact col-sm-3">
+                        <div class="title">Hỗ trợ</div>
+                        <div>Hotline: 089.808.4342</div>
+                        <div>Skype: testmasterhn</div>
+                        <div>Email: daotao@testmaster.vn</div>
+                    </div>
+                    <div class="subscription col-sm-6">
+                        <div class="title" style="margin-bottom:6px;">
+                            Đăng ký nhận bản tin
+                        </div>
+                        <div class="mod-input">
+                            <div class="col-sm-9" style="padding:0;">
+                                <input type="email" class="" placeholder="Nhập Email để đăng ký" />
+                            </div>
+                            <div class="col-sm-3">
+                                <button class="next-btn-primary" style="line-height:40px; padding:0 16px; border-width:0px;">Đăng ký</button>
+                            </div>
+                            <div style="clear:both;">
+                                <span>* Email không đúng định dạng</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="clear:both;"></div>
+                <div class="address">
+                    <div class="title">Địa chỉ</div>
+                    <div><b><i>Tầng 02 - Tòa nhà IMS Số 473 Nguyễn Trãi - Thanh Xuân - Hà Nội</i></b></div>
+                    <div><b>(Đối diện Bách Hóa Thanh Xuân)</b></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="modal fade popover-dialog form alert in" style="display: block;" aria-hidden="false">
+        <div id="popover">
+            <div class="popover-body" style=" overflow-y:inherit !important;"><div class="body-icon">
+                    <img class="" src="https://ghost-software.com/wp-content/uploads/2015/03/alert-icon-red.png" />
+                </div>
+                <div class="body-message">Bạn đã đăng ký nhận bản tin thành công. Hãy kiểm tra Email để xác nhận việc đăng ký</div>
+                <div class="clearfix"></div></div><div class="popover-footer">
+                <button id="allow-button" class="primary popover-button">Đồng ý</button>
+                <button id="cancel-button" class="secondary popover-button" data-dismiss="modal">Không, cám ơn!</button><div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; width: 0px; height: 0px;"><div><iframe name="fb_xdm_frame_https" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" src="https://staticxx.facebook.com/connect/xd_arbiter/r/j-GHT1gpo6-.js?version=43#channel=f34728d8e4cbe48&amp;origin=http%3A%2F%2Ftestmaster.vn" style="border: none;"></iframe></div><div></div></div></div>
+    <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js#xfbml=1&amp;version=v2.12&amp;autoLogAppEvents=1';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- Your customer chat code -->
+    <div class="fb-customerchat" attribution="setup_tool" page_id="964744633573608" theme_color="#fa3c4c" logged_in_greeting="Chào mừng bạn đến với trung tâm đào tạo Testmaster!" logged_out_greeting="Chào mừng bạn đến với trung tâm đào tạo Testmaster!" fb-xfbml-state="parsed">
+    </div>
+
+
+<div id="ascrail2000" class="nicescroll-rails nicescroll-rails-vr" style="width: 6px; z-index: auto; cursor: default; position: absolute; top: 95px; left: 1180.5px; height: 360px; opacity: 0; display: block;"><div class="nicescroll-cursors" style="position: relative; top: 0px; float: right; width: 6px; height: 211px; background-color: rgb(204, 204, 204); border: rgb(204, 204, 204); background-clip: padding-box; border-radius: 5px;"></div></div><div id="ascrail2000-hr" class="nicescroll-rails nicescroll-rails-hr" style="height: 6px; z-index: auto; top: 449px; left: 866.5px; position: absolute; cursor: default; display: none; width: 314px; opacity: 0;"><div class="nicescroll-cursors" style="position: absolute; top: 0px; height: 6px; width: 320px; background-color: rgb(204, 204, 204); border: rgb(204, 204, 204); background-clip: padding-box; border-radius: 5px; left: 0px;"></div></div><div class="modal-backdrop fade in"></div></body></html>

@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: vt.endCourse.DefinitionTestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 103.498 sec <<< FAILURE! - in vt.endCourse.DefinitionTestSuite
+Enter wrong email(subscriber function)  Time elapsed: 13.694 sec  <<< ERROR!
+net.serenitybdd.core.exceptions.SerenityManagedException: 
+The following error occurred: Expected condition failed: waiting for LandingPage.errorOnPage to be displayed (tried for 5 second(s) with 100 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'ANHPTN', ip: '10.61.185.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown
+Caused by: org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for LandingPage.errorOnPage to be displayed (tried for 5 second(s) with 100 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'ANHPTN', ip: '10.61.185.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown
+
+Initial extra form(subscriber function)  Time elapsed: 12.545 sec  <<< ERROR!
+net.serenitybdd.core.exceptions.SerenityManagedException: 
+The following error occurred: Expected condition failed: waiting for ExtraForm.lbl_Gender_asterisk to be displayed (tried for 5 second(s) with 100 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'ANHPTN', ip: '10.61.185.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown
+Caused by: org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for ExtraForm.lbl_Gender_asterisk to be displayed (tried for 5 second(s) with 100 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'ANHPTN', ip: '10.61.185.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown
+
+Does not chooes gender on the extra form(subscriber function)  Time elapsed: 12.544 sec  <<< ERROR!
+net.serenitybdd.core.exceptions.SerenityManagedException: 
+The following error occurred: Expected condition failed: waiting for ExtraForm.lbl_error_message_gender to be displayed (tried for 5 second(s) with 100 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'ANHPTN', ip: '10.61.185.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown
+Caused by: org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for ExtraForm.lbl_error_message_gender to be displayed (tried for 5 second(s) with 100 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'ANHPTN', ip: '10.61.185.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown
+

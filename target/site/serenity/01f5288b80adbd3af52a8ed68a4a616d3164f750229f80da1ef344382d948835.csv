@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"subscriber function","Enter registered email","SUCCESS","2019-01-09T15:37:15.885+07:00[Asia/Bangkok]","0.0","10.76"
+"subscriber function","Empty full name in extra form","SUCCESS","2019-01-09T15:37:39.212+07:00[Asia/Bangkok]","0.0","9.64"
+"subscriber function","Subscriber successfully","SUCCESS","2019-01-09T15:38:01.408+07:00[Asia/Bangkok]","0.0","9.14"

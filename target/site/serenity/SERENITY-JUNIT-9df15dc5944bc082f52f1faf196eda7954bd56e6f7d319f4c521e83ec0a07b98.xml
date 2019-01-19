@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="3" failures="0" name="subscriber function" skipped="0" tests="10" time="102.27" timestamp="2019-01-09T15:36:28.271+07:00[Asia/Bangkok]"><testcase name="Enter wrong email"><error message="The following error occurred: Expected condition failed: waiting for LandingPage.errorOnPage to be displayed (tried for 5 second(s) with 100 MILLISECONDS interval)&#10;Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'&#10;System info: host: 'ANHPTN', ip: '10.61.185.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'&#10;Driver info: driver.version: unknown&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'&#10;System info: host: 'ANHPTN', ip: '10.61.185.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">The following error occurred: Expected condition failed: waiting for LandingPage.errorOnPage to be displayed (tried for 5 second(s) with 100 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'ANHPTN', ip: '10.61.185.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'ANHPTN', ip: '10.61.185.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown</error><system-err>The following error occurred: Expected condition failed: waiting for LandingPage.errorOnPage to be displayed (tried for 5 second(s) with 100 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'ANHPTN', ip: '10.61.185.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'ANHPTN', ip: '10.61.185.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown&#13;
+vt.endCourse.pages.LandingPage.get_error_content_on_form(LandingPage.java:31)&#13;
+vt.endCourse.steps.serenity.Subscriber.see_the_onpage_error(Subscriber.java:24)&#13;
+vt.endCourse.steps.SubscirberStepDef.i_see_error_message(SubscirberStepDef.java:30)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase><testcase name="Enter registered email"/><testcase name="Initial extra form"><error message="The following error occurred: Expected condition failed: waiting for ExtraForm.lbl_Gender_asterisk to be displayed (tried for 5 second(s) with 100 MILLISECONDS interval)&#10;Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'&#10;System info: host: 'ANHPTN', ip: '10.61.185.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'&#10;Driver info: driver.version: unknown&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'&#10;System info: host: 'ANHPTN', ip: '10.61.185.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">The following error occurred: Expected condition failed: waiting for ExtraForm.lbl_Gender_asterisk to be displayed (tried for 5 second(s) with 100 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'ANHPTN', ip: '10.61.185.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'ANHPTN', ip: '10.61.185.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown</error><system-err>The following error occurred: Expected condition failed: waiting for ExtraForm.lbl_Gender_asterisk to be displayed (tried for 5 second(s) with 100 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'ANHPTN', ip: '10.61.185.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'ANHPTN', ip: '10.61.185.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown&#13;
+vt.endCourse.pages.ExtraForm.getAsteriskInGenderLabel(ExtraForm.java:83)&#13;
+vt.endCourse.steps.serenity.Subscriber.see_the_gender_label_with_asterisk(Subscriber.java:49)&#13;
+vt.endCourse.steps.SubscirberStepDef.i_should_see_the_form_initial_correctly(SubscirberStepDef.java:62)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase><testcase name="Empty full name in extra form"/><testcase name="Does not chooes gender on the extra form"><error message="The following error occurred: Expected condition failed: waiting for ExtraForm.lbl_error_message_gender to be displayed (tried for 5 second(s) with 100 MILLISECONDS interval)&#10;Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'&#10;System info: host: 'ANHPTN', ip: '10.61.185.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'&#10;Driver info: driver.version: unknown&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'&#10;System info: host: 'ANHPTN', ip: '10.61.185.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">The following error occurred: Expected condition failed: waiting for ExtraForm.lbl_error_message_gender to be displayed (tried for 5 second(s) with 100 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'ANHPTN', ip: '10.61.185.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'ANHPTN', ip: '10.61.185.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown</error><system-err>The following error occurred: Expected condition failed: waiting for ExtraForm.lbl_error_message_gender to be displayed (tried for 5 second(s) with 100 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'ANHPTN', ip: '10.61.185.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'ANHPTN', ip: '10.61.185.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown&#13;
+vt.endCourse.pages.ExtraForm.getErrorMessageUnderGenderField(ExtraForm.java:94)&#13;
+vt.endCourse.steps.serenity.Subscriber.see_error_under_gender(Subscriber.java:71)&#13;
+vt.endCourse.steps.SubscirberStepDef.i_should_see_an_error_message_under_the_Gender_field(SubscirberStepDef.java:92)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase><testcase name="Subscriber successfully"/></testsuite>

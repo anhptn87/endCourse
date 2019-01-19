@@ -1,0 +1,13 @@
+vt\endCourse\steps\CreateNewsStepsDef.class
+vt\endCourse\steps\serenity\CreateNewsUser.class
+vt\endCourse\pages\ExtraForm.class
+vt\endCourse\steps\DefinitionSteps.class
+vt\endCourse\DefinitionTestSuite.class
+vt\endCourse\pages\CreateNewsPage.class
+vt\endCourse\pages\DictionaryPage.class
+vt\endCourse\steps\SubscirberStepDef.class
+vt\endCourse\util\Util.class
+vt\endCourse\pages\LandingPage.class
+vt\endCourse\steps\serenity\Subscriber.class
+vt\endCourse\steps\serenity\EndUserSteps.class
+vt\endCourse\pages\LogInPage.class

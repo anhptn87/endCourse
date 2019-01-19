@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"subscriber function","Enter wrong email","ERROR","2019-01-09T15:36:28.271+07:00[Asia/Bangkok]","0.0","47.61"
+"subscriber function","Initial extra form","ERROR","2019-01-09T15:37:26.647+07:00[Asia/Bangkok]","0.0","12.56"
+"subscriber function","Does not chooes gender on the extra form","ERROR","2019-01-09T15:37:48.852+07:00[Asia/Bangkok]","0.0","12.55"

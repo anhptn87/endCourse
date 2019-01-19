@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="vt.endCourse.DefinitionTestSuite" time="103.498" tests="10" errors="3" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="cucumber.options" value="--tags @Subscriber"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\bin"/>
+    <property name="java.vm.version" value="25.191-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Workspace\endCourse"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Workspace\endCourse"/>
+    <property name="java.runtime.version" value="1.8.0_191-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\anhptn\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\ProgramData\chocolatey\lib\maven\apache-maven-3.6.0\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_191\bin;D:\BrowserDriver;C:\Program Files\Java\jre1.8.0_191\bin;C:\Users\anhptn\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="maven.conf" value="C:\ProgramData\chocolatey\lib\maven\apache-maven-3.6.0\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\ProgramData\chocolatey\lib\maven\apache-maven-3.6.0\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\anhptn"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="anhptn"/>
+    <property name="java.class.path" value="C:\ProgramData\chocolatey\lib\maven\apache-maven-3.6.0\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_191\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean verify -Dcucumber.options=--tags @Subscriber"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_191"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_191\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\ProgramData\chocolatey\lib\maven\apache-maven-3.6.0\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Enter wrong email" classname="subscriber function" time="11.546"/>
+  <testcase name="Enter wrong email" classname="subscriber function" time="7.496"/>
+  <testcase name="Enter wrong email" classname="subscriber function" time="7.437"/>
+  <testcase name="Enter wrong email" classname="subscriber function" time="7.23"/>
+  <testcase name="Enter wrong email" classname="subscriber function" time="13.694">
+    <error message="The following error occurred: Expected condition failed: waiting for LandingPage.errorOnPage to be displayed (tried for 5 second(s) with 100 MILLISECONDS interval)&#10;Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;&#10;System info: host: &apos;ANHPTN&apos;, ip: &apos;10.61.185.33&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;&#10;Driver info: driver.version: unknown" type="net.serenitybdd.core.exceptions.SerenityManagedException">net.serenitybdd.core.exceptions.SerenityManagedException: 
+The following error occurred: Expected condition failed: waiting for LandingPage.errorOnPage to be displayed (tried for 5 second(s) with 100 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'ANHPTN', ip: '10.61.185.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown
+Caused by: org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for LandingPage.errorOnPage to be displayed (tried for 5 second(s) with 100 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'ANHPTN', ip: '10.61.185.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown
+</error>
+    <system-err><![CDATA[[main] INFO net.serenitybdd.core.Serenity - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Enter wrong email
+----------------------------------------------------------------------------
+Jan 09, 2019 3:37:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+[main] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Enter wrong email
+---------------------------------------------------------------------
+[main] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP See the onpage error
+[main] ERROR net.serenitybdd.core.Serenity - The following error occurred: Expected condition failed: waiting for LandingPage.errorOnPage to be displayed (tried for 5 second(s) with 100 MILLISECONDS interval)Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'System info: host: 'ANHPTN', ip: '10.61.185.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'Driver info: driver.version: unknownFor documentation on this error, please visit: http://seleniumhq.org/exceptionso_such_element.htmlBuild info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'System info: host: 'ANHPTN', ip: '10.61.185.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'Driver info: driver.version: unknown
+]]></system-err>
+  </testcase>
+  <testcase name="Enter registered email" classname="subscriber function" time="10.734"/>
+  <testcase name="Initial extra form" classname="subscriber function" time="12.545">
+    <error message="The following error occurred: Expected condition failed: waiting for ExtraForm.lbl_Gender_asterisk to be displayed (tried for 5 second(s) with 100 MILLISECONDS interval)&#10;Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;&#10;System info: host: &apos;ANHPTN&apos;, ip: &apos;10.61.185.33&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;&#10;Driver info: driver.version: unknown" type="net.serenitybdd.core.exceptions.SerenityManagedException">net.serenitybdd.core.exceptions.SerenityManagedException: 
+The following error occurred: Expected condition failed: waiting for ExtraForm.lbl_Gender_asterisk to be displayed (tried for 5 second(s) with 100 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'ANHPTN', ip: '10.61.185.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown
+Caused by: org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for ExtraForm.lbl_Gender_asterisk to be displayed (tried for 5 second(s) with 100 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'ANHPTN', ip: '10.61.185.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown
+</error>
+    <system-err><![CDATA[[main] INFO net.serenitybdd.core.Serenity - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Enter registered email
+----------------------------------------------------------------------------
+[main] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Initial extra form
+-------------------------------------------------------------------(subscriber-function;initial-extra-form)
+Jan 09, 2019 3:37:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+[main] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Initial extra form
+---------------------------------------------------------------------
+[main] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP See the gender label with asterisk
+[main] ERROR net.serenitybdd.core.Serenity - The following error occurred: Expected condition failed: waiting for ExtraForm.lbl_Gender_asterisk to be displayed (tried for 5 second(s) with 100 MILLISECONDS interval)Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'System info: host: 'ANHPTN', ip: '10.61.185.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'Driver info: driver.version: unknownFor documentation on this error, please visit: http://seleniumhq.org/exceptionso_such_element.htmlBuild info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'System info: host: 'ANHPTN', ip: '10.61.185.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'Driver info: driver.version: unknown
+]]></system-err>
+  </testcase>
+  <testcase name="Empty full name in extra form" classname="subscriber function" time="9.577"/>
+  <testcase name="Does not chooes gender on the extra form" classname="subscriber function" time="12.544">
+    <error message="The following error occurred: Expected condition failed: waiting for ExtraForm.lbl_error_message_gender to be displayed (tried for 5 second(s) with 100 MILLISECONDS interval)&#10;Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;&#10;System info: host: &apos;ANHPTN&apos;, ip: &apos;10.61.185.33&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;&#10;Driver info: driver.version: unknown" type="net.serenitybdd.core.exceptions.SerenityManagedException">net.serenitybdd.core.exceptions.SerenityManagedException: 
+The following error occurred: Expected condition failed: waiting for ExtraForm.lbl_error_message_gender to be displayed (tried for 5 second(s) with 100 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'ANHPTN', ip: '10.61.185.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown
+Caused by: org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for ExtraForm.lbl_error_message_gender to be displayed (tried for 5 second(s) with 100 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'ANHPTN', ip: '10.61.185.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown
+</error>
+    <system-err><![CDATA[[main] INFO net.serenitybdd.core.Serenity - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Empty full name in extra form
+----------------------------------------------------------------------------
+[main] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Does not chooes gender on the extra form
+-------------------------------------------------------------------(subscriber-function;does-not-chooes-gender-on-the-extra-form)
+Jan 09, 2019 3:37:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+[main] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Does not chooes gender on the extra form
+---------------------------------------------------------------------
+[main] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP See error under gender
+[main] ERROR net.serenitybdd.core.Serenity - The following error occurred: Expected condition failed: waiting for ExtraForm.lbl_error_message_gender to be displayed (tried for 5 second(s) with 100 MILLISECONDS interval)Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'System info: host: 'ANHPTN', ip: '10.61.185.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'Driver info: driver.version: unknownFor documentation on this error, please visit: http://seleniumhq.org/exceptionso_such_element.htmlBuild info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'System info: host: 'ANHPTN', ip: '10.61.185.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'Driver info: driver.version: unknown
+]]></system-err>
+  </testcase>
+  <testcase name="Subscriber successfully" classname="subscriber function" time="9.075"/>
+</testsuite>
