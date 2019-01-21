@@ -6,6 +6,6 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(features = "src/test/resources/features"
-, tags = {"~@Dictinary" ,"@SendNews", "@CreateNews", "@Subscriber"})
+, tags = {"@SendNews", "@CreateNews", "@Subscriber"})
 public class DefinitionTestSuite {
 }
